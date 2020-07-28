@@ -12139,7 +12139,7 @@ body:after {
 
 .w3l-contact-breadcrum .breadcrum-bg {
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(42, 42, 42, 0.71), rgba(38, 40, 40, 0.78)), url(../images/g2.jpg);
+  background-image: linear-gradient(to right, rgba(42, 42, 42, 0.71), rgba(38, 40, 40, 0.78)), url(../images/6.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   padding-top: 86px; }
@@ -12218,5 +12218,10 @@ body:after {
     font-size: 35px; }
   .w3l-service-breadcrum .breadcrum-bg {
     padding-top: 60px; } }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+.grows { transition: all .2s ease-in-out; }
+.grows:hover { transform: scale(1.05); }
 
 /*# sourceMappingURL=style-starter.css.map */
